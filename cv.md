@@ -1,6 +1,6 @@
 # Albert Sultanov
 
-### Junior Softwear Engineer / JavaScript
+### Junior Software Engineer / JavaScript
 
 ![I_am](./images/i_am.jpeg)
 
