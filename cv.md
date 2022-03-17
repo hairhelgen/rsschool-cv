@@ -2,7 +2,7 @@
 
 ###Junior Softwear Engineer / JavaScript
 
-![I_am](./images/i_am.jpeg)
+![I_am](/images/i_am.jpeg)
 
 * [LinkedIn](https://www.linkedin.com/in/hairhelgen/)
 * [Telegram](https://t.me/stimpy68)
@@ -113,4 +113,4 @@ function filter_list(l) {
 
 Certificates:
 * Innopolis University: Front-end developer
-![innopolis](./images/innopolis_diplom.jpeg)
+![innopolis](/images/innopolis_diplom.jpeg)
