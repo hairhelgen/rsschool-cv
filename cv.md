@@ -1,5 +1,7 @@
 **Albert Sultanov**
 
+![Me](/img/i_am.jpeg)
+
 * [LinkedIn](https://www.linkedin.com/in/hairhelgen/)
 * [Telegram](https://t.me/stimpy68)
 * Discord: Albert Sultanov (@hairhelgen)
@@ -86,9 +88,26 @@ Error handling | Programmer
 Documenting the code | Programmer
 Code extensibility | Programmer (I'm not sure)
 
-Example code:
+**Example code:**
+
 Project on [Gitlab](https://gitlab.com/hairhelgen/start-page-mobile-pay/-/commit/90f8f6066143939aa6dd65e9f45a388241d8b6fe)
 mobile-pay. Stack: Next.js + JS (After rewrite on TS)
+
+Codewars:
+```javascript
+function filter_list(l) {
+  // Return a new array with the strings filtered out
+  let l1 = [];
+  i = 0;
+  while (i < l.length) {
+    if (typeof l[i] === 'number') {
+      l1.push(l[i]);
+    }
+    i++;
+  }
+  return l1
+}
+```
 
 Certificates:
 * Innopolis University: Front-end developer
