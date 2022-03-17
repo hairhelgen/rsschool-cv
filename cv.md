@@ -9,6 +9,8 @@
 * Discord: Albert Sultanov (@hairhelgen)
 * E-mail: sultan.albert@yandex.ru
 
+###About me
+
 >I'm burned out
 
 After this asked, I was able finally quit my job.
@@ -33,6 +35,7 @@ function myLearnToJob(hands, laptops) {
 myLearnToJob(2, 2)
 ```
 
+###Competition
 This table is compiled by [Competence matrix](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwSn4qxbYHSdQ428OkpArZc4Q22D8dmbzDcRXt-UzkZ1sZfGLoQmm1w-N0Rx_voKLx4i7R_k7cnQgV/pubhtml#)
 
 My stack | Description
@@ -90,12 +93,12 @@ Error handling | Programmer
 Documenting the code | Programmer
 Code extensibility | Programmer (I'm not sure)
 
-**Example code:**
+###Example code:
 
 Project on [Gitlab](https://gitlab.com/hairhelgen/start-page-mobile-pay/-/commit/90f8f6066143939aa6dd65e9f45a388241d8b6fe)
 mobile-pay. Stack: Next.js + JS (After rewrite on TS)
 
-Codewars:
+**Codewars:**
 ```javascript
 function filter_list(l) {
   // Return a new array with the strings filtered out
@@ -111,8 +114,8 @@ function filter_list(l) {
 }
 ```
 
-Certificates:
+###Certificates:
 
-Innopolis University: Front-end developer
+* Innopolis University: Front-end developer
 
 ![innopolis](./images/diploma.jpg)
