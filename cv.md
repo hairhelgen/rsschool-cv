@@ -112,6 +112,7 @@ function filter_list(l) {
 ```
 
 Certificates:
-* Innopolis University: Front-end developer
 
-![innopolis](./images/innopolis_diplom.jpeg)
+Innopolis University: Front-end developer
+
+![innopolis](./images/diploma.jpg)
