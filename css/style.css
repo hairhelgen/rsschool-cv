@@ -1,0 +1,19 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Red Hat Mono', monospace;
+}
+
+h1 {
+	font-family: 'Major Mono Display', monospace;
+	color: red;
+}
+
