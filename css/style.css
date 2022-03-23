@@ -10,10 +10,141 @@ html {
 
 body {
 	font-family: 'Red Hat Mono', monospace;
+	color: white;
+	background-color: #292b2d
+
 }
 
-h1 {
+.container {
+	margin: 15px auto;
+	width: 1200px;
+	box-shadow: 5px 5px 40px 20px #bbb;
+	background-color: #292b2d
+}
+
+/*Global*/
+
+.profile,
+.contacts,
+.hobby,
+.summary,
+.skills,
+.code,
+.courses,
+.education {
+	padding: 30px 30px;
+}
+
+.flex {
+	display: flex;
+}
+
+.title {
+	margin-bottom: 15px;
+}
+
+.link:hover {
+	background-color: rgba(90, 192, 208, 0.2);
+	box-shadow: 1px 1px 40px 1px #5ac0d0;
+	transition: .3s;
+}
+
+.item {
+	line-height: 1.8rem;
+}
+
+.bg-image {
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 5%;
+}
+
+/*======Main=======*/
+.main {
+	justify-content: space-between;
+}
+
+.wrapper-right {
+	width: 60%;
+}
+
+.wrapper-left {
+	width: 40%;
+}
+
+/*Profile*/
+.profile-photo {
+	margin-bottom: 20px;
+	width: 380px;
+	height: 380px;
+	border: 10px solid #d36565;
+	border-radius: 190px;
+	box-shadow: 5px 5px 40px 5px #d36565;
+}
+
+.profile-title {
+	margin-bottom: 15px;
 	font-family: 'Major Mono Display', monospace;
-	color: red;
+	color: #5ac0d0;
 }
 
+/*Contacts*/
+.contacts {
+	width: 700px;
+}
+
+.contacts-item:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.linkedin {
+	background-image: url('../assets/svg/linkedin.svg');
+}
+
+.discord {
+	background-image: url('../assets/svg/discord.svg');
+}
+
+.mail {
+	background-image: url('../assets/svg/mail.svg');
+}
+
+.telegram {
+	background-image: url('../assets/svg/telegram.svg');
+}
+
+/*Hobby*/
+.hobby {
+	width: 700px;
+}
+
+.hobby-item:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.music {
+	background-image: url('../assets/svg/music.svg');
+}
+
+.ski {
+	background-image: url('../assets/svg/ski.svg');
+}
+
+.technologies {
+	background-image: url('../assets/svg/laptop.svg');
+}
+
+/*Code*/
+.example-code {
+	text-align: left;
+}
+
+/*Footer*/
+.footer {
+	padding: 20px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d36565;
+}

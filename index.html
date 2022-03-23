@@ -16,38 +16,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/second-norm.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item"><a href="#code">Code</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="container">
+	<div class="container">
+    <main class="main flex">
+      <div class="wrapper wrapper-left">
         <section class="profile">
+					<img class="profile-photo" src="assets/img/i_am.jpeg">
           <h1 class="profile-title">Albert Sultanov</h1>
           <p class="profile-description"><b>Junior Software Engineer / JavaScript</b></p>
         </section>
-        <section class="contacts">
-          <h2 class="contacts-title">Contacts</h2>
-          <ul class="contacts-list">
-            <li
-                class="contacts-item"><a href="https://www.linkedin.com/in/hairhelgen/"
-                                         rel="noopener nofollow noreferrer" target="_blank">
-              LinkedIn</a></li>
-            <li class="contacts-item"><a href="https://t.me/stimpy68" target="_blank">Telegram</a></li>
-            <li class="contacts-item">Discord: Albert Sultanov (@hairhelgen)</li>
-            <li class="contacts-item"><a href="mailto:sultan.albert@yandex.ru">Email</a></li>
-          </ul>
-        </section>
+				<section class="contacts">
+					<h2 class="title contacts-title">Contacts</h2>
+					<ul class="list contacts-list">
+						<li class="contacts-item item bg-image linkedin">
+							<a class="link" href="https://www.linkedin.com/in/hairhelgen/"
+								 rel="noopener nofollow noreferrer" target="_blank">
+								LinkedIn</a>
+						</li>
+						<li
+								class="contacts-item item bg-image telegram"><a class="link" href="https://t.me/stimpy68"
+																											 target="_blank">Telegram
+						</a></li>
+						<li class="contacts-item item bg-image discord">Discord: Albert Sultanov (@hairhelgen)</li>
+						<li class="contacts-item item bg-image mail">
+							<a class="link" href="mailto:sultan.albert@yandex.ru">Send me: sultan.albert@yandex.ru</a>
+						</li>
+					</ul>
+				</section>
+				<section class="hobby">
+					<h2 class="title hobby-title">Hobby</h2>
+					<ul class="list hobby-list">
+						<li class="hobby-item item bg-image music">Music</li>
+						<li class="hobby-item item bg-image ski">Snow-skiing</li>
+						<li class="hobby-item item bg-image technologies">Technologies</li>
+					</ul>
+				</section>
+			</div>
+			<div class="wrapper wrapper-right">
         <section class="summary">
-          <h2 class="summary-title">About me</h2>
+          <h2 class="title summary-title">About me</h2>
           <p>"I'm burned out"</p>
           <p>After this asked, I was able finally quit my job. I started study in "School 21". However, I couldn't get
             into school. In March 2021 I was invited to work with POS-terminals. "A good start" - I said. Afterwords I
@@ -55,99 +65,79 @@
             Front-end development course in Innopolis University.</p>
 					<p>And now, I'm learning React.js and Next.js with TypeScript. My history isn't to finish, this description my
 						work experience will be to update.</p>
-					<pre>
-						function myLearnToJob(hands, laptops) {
-							if (hands < 0) {
-								return alert("Use your foots")
-							} else if (laptops < 0) {
-								return alert("Create mine laptop")
-							} else alert("Halt and Catch Fire")
-						}
+					<pre class="example-code">
+	function myLearnToJob(hands, laptops) {
+		if (hands < 0) {
+			return alert("Use your foots")
+		} else if (laptops < 0) {
+			return alert("Create mine laptop")
+		} else alert("Halt and Catch Fire")
+	}
 
-						myLearnToJob(2, 2)
+	myLearnToJob(2, 2)
 					</pre>
 				</section>
         <section class="skills" id="skills">
-          <h2 class="skills-title">Skills</h2>
-					<table class="skills-table">
-						<caption>Competitions</caption>
-						<colgroup>
-							<col span="1" style="background: #787878">
-						</colgroup>
-						<thead>
-						<tr>
-							<th>Stack</th>
-							<th>Level</th>
-							<th>Description</th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr>
-							<td colspan="3">Javascript</td>
-						</tr>
-						<tr>
-							<td>HTML</td>
-							<td>Programmer</td>
-							<td>HTML-page develop no EMMET</td>
-						</tr>
-						<tr>
-							<td>CSS</td>
-							<td>Programmer</td>
-							<td>Any descr</td>
-						</tr>
-						<tr>
-							<td>JavaScript</td>
-							<td>Coder</td>
-							<td>I know basic contraction language</td>
-						</tr>
-						<tr>
-							<td>Typing</td>
-							<td>Programmer</td>
-							<td>Able to write code with types (the typing system is not important). Understands the code points where
-								runtime typing is needed
-							</td>
-						</tr>
-						<tr>
-							<td>Fundamentals of system programming</td>
-							<td>Programmer</td>
-							<td>Distinguishes the compiler from the linker, and the interpreter from the compiler. Able to find out
-								the cause of the compilation error of the next node_modules and eliminate it
-							</td>
-						</tr>
-						<tr>
-							<td>Enemy technology</td>
-							<td>Programmer</td>
-							<td>Able to outline the strengths of enemy technologies</td>
-						</tr>
-						<tr>
-							<td colspan="3">Computer science</td>
-						</tr>
-						<tr>
-							<td>Algorithms and data structures</td>
-							<td>Coder</td>
-							<td>I use recursion in the code. I know when to use iteration and recursion. I understand how bubble
-								sorting works, and I can apply it
-							</td>
-						</tr>
-						</tbody>
-					</table>
+          <h2 class="title skills-title">Skills</h2>
+					<ul class="list skills-list">
+						<li class="skills-item item bg-image">HTML, 1 year</li>
+						<li class="skills-item item bg-image">CSS, 1 year</li>
+						<li class="skills-item item bg-image">JavaScript, 1 year</li>
+						<li class="skills-item item bg-image">TypeScript, 1 month</li>
+						<li class="skills-item item bg-image">React, 3 month</li>
+						<li class="skills-item item bg-image">Next.js, 1 month</li>
+						<li class="skills-item item bg-image">Git, 1 year</li>
+					</ul>
         </section>
         <section class="code" id="code">
-          <h2>Example code</h2>
+          <h2 class="title code-title">Example code</h2>
+					<p>
+						This example code taken from
+						<a class="link code-link" href="https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript"
+							 target="_blank"
+							rel="nofollow noopener noreferrer">
+							Codewars.com
+						</a>
+					</p>
+					<p>In this kata you will create a function that takes a list of non-negative integers and strings and returns
+						a new list with the strings filtered out.</p>
+					<pre class="example-code">
+	function filter_list(l) {
+		let l1 = [];
+		i = 0;
+		while (i < l.length) {
+			if (typeof l[i] === 'number') {
+				l1.push(l[i]);
+			}
+			i++;
+		}
+		return l1
+	}
+					</pre>
         </section>
         <section class="courses">
-          <h2>Courses</h2>
-        </section>
-        <section class="projects" id="projects">
-          <h2>Projects</h2>
+          <h2 class="title courses-title">Courses</h2>
+					<ul class="list courses-list">
+						<li class="courses-item item bg-image">Innopolis University: Front-end developer</li>
+					</ul>
         </section>
         <section class="education">
-          <h2>Education</h2>
-        </section>
-        <section class="languages">
-          <h2>Languages</h2>
+          <h2 class="title education-title">Education</h2>
+					<ul class="list education-list">
+						<li class="education-item item bg-image">Forestry enterprise, engineer</li>
+						<li class="education-item item bg-image">Atm-company, engineer</li>
+					</ul>
         </section>
       </div>
     </main>
+		<footer class="footer flex">
+			<div class="footer-link">
+				<p>Welcome to my GitHub</p>
+				<p>Welcome to my GitLub</p>
+			</div>
+			<p>%copy, 2022</p>
+			<a class="link" href="#rs" target="_blank" rel="nofollow noreferrer noopener"><img src="rs"></a>
+		</footer>
+	</div>
   </body>
 </html>
