@@ -60,6 +60,17 @@ body {
 	background-size: 5%;
 }
 
+.text {
+	margin-bottom: 15px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
+.link-img {
+	width: 40px;
+	height: 40px;
+}
+
 /*======Main=======*/
 .main {
 	justify-content: space-between;
@@ -135,9 +146,40 @@ body {
 	background-image: url('../assets/svg/laptop.svg');
 }
 
+/*Summary*/
+.summary-quoter {
+	color: #5ac0d0;
+}
+
+/*Skills*/
+.html {
+	background-image: url('../assets/svg/html-5-svg.svg');
+}
+.css {
+	background-image: url('../assets/svg/css3-svg.svg');
+}
+.javascript {
+	background-image: url('../assets/svg/javascript-svg.svg');
+}
+.typescript {
+	background-image: url('../assets/svg/typescript-svg.svg');
+}
+.react {
+	background-image: url('../assets/svg/react-svg.svg');
+}
+.next-js {
+	background-image: url('../assets/svg/next-svg.svg');
+	background-size: 4%;
+	background-position: left 3px center;
+}
+.git {
+	background-image: url('../assets/svg/git-svg.svg');
+}
+
 /*Code*/
 .example-code {
 	text-align: left;
+	color: #5ac0d0;
 }
 
 /*Footer*/
@@ -147,4 +189,13 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #d36565;
+}
+
+.footer-link:not(:last-child) {
+	margin-right: 10px;
+}
+
+.link-img_large {
+	width: 80px;
+	height: 40px;
 }
