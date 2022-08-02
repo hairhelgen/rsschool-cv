@@ -2,7 +2,7 @@
 
 ### Junior Software Engineer / JavaScript
 
-![I_am](./images/i_am.jpeg)
+![I_am](./assets/images/i_am.jpeg)
 
 * [LinkedIn](https://www.linkedin.com/in/hairhelgen/)
 * [Telegram](https://t.me/stimpy68)
@@ -118,4 +118,4 @@ function filter_list(l) {
 
 * Innopolis University: Front-end developer
 
-![innopolis](./images/diploma.jpg)
+![innopolis](./assets/images/diploma.jpg)
